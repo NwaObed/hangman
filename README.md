@@ -29,7 +29,7 @@ In this milestone, I have created the Hangman ```class``` and defined different 
 
 I have completed the whole game following the following steps:
 
-### Defining the ```Hangman`` class
+### Defining the ```Hangman``` class
 - Using the keyword ```class```, I defined the class object ```Hangman```
 - Next, I initiated the attributes of the class with ```__init__()``` method. This method gives initial values of the attributes each time an instance of ```Hangman``` class is created. It is not mandatory to use it, but it is a good practice to use easily when we have attributes that have default values.
 
