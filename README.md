@@ -21,3 +21,6 @@ Here, I have created two functions using the key word
 ```python def```
 
 In one of the function, I have passed an argument used within the function. Also, I have imported another file (module) and call one of the variables defined in the imported file. 
+
+## Milestone 4
+In this milestone, I have created the Hangman ```class``` and defined different methods needed to complete the game. Methods are functions defined within the function. I also used the ```__init__()``` method to initiate the attributes of the class each time an instance of the class is created. Other methods that I created are ```ask_for_input``` and ```check_guess``` using the keyword ```def``` to definition them as functions within the ```Hangman``` class.
