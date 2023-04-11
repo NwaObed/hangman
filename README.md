@@ -12,12 +12,34 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 In this milestone, I was able to set up GitHub. GitHub is a version control software used to keep track of project development. I installed GitHub, and created a repo that will host my project file remotely. This technique will enable me to work on different aspects of the same project independently and in the end merge them to have a complete project.
 
 ## Milestone 2
-Yes, it is connected to the previous milestone. First, this README.md was part of the files I created while creating the repo. Second, I cloned the repo to my local machine which the same as downloading the repo before I started performing the required tasks. 
+Yes, it is connected to the previous milestone. First, this README.md was part of the files I created while creating the repo. Second, I cloned the repo to my local machine which is the same as downloading the repo before I started performing the required tasks. 
 
 - I have imported the random module that was used to randomly pick a word from the list of words provided.
 
 ## Milestone 3
 I created two functions in this milestones -- ```check_guess``` to check and ensure the user input is a single alphabetical character and ```ask_for_input``` to get the player's guess or input.
+
+```
+def check_guess(guess):
+    guess = guess.lower()
+    if guess in word:
+        print(f'Good guess! {guess} is in the word.')
+
+    else:
+        print(f'Sorry, {guess} is not in the word')
+
+def ask_for_input():
+    #Iteratively check if the input is a valid guess
+    while True:
+        guess = input('Please enter a letter : ')
+        if len(guess) ==1 and guess.isalpha():
+            break
+        else:
+            print('Invalid letter. Please, enter a single alphabetical character')
+
+    check_guess(guess)
+
+```
 
 ## Milestone 4
 In this milestone I have implemented the Hangman class, creating the class constructor method ```_init_``` where all the class attributes has been declared and two other methods to ask for the user input and then check it.
