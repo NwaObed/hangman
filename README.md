@@ -18,7 +18,7 @@ Yes, it is connected to the previous milestone. First, this README.md was part o
 
 ## Milestone 3
 Using the following code snippets, 
-I created two functions in this milestones -- ```check_guess``` to check and ensure the user input is a single alphabetical character and ```ask_for_input``` to get the player's guess or input.
+I created two functions in this milestones: ```check_guess``` to check and ensure the user input is a single alphabetical character and ```ask_for_input``` to get the player's guess or input.
 
 ```python
 def check_guess(guess):
