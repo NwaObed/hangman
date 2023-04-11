@@ -20,7 +20,7 @@ Yes, it is connected to the previous milestone. First, this README.md was part o
 I created two functions in this milestones -- ```check_guess``` to check and ensure the user input is a single alphabetical character and ```ask_for_input``` to get the player's guess or input.
 
 ## Milestone 4
-In this milestone I have implemented the Hangman class, creating the class constructor method _init_ where all the class attributes has been declared and two other methods to ask for the user input and then check it.
+In this milestone I have implemented the Hangman class, creating the class constructor method ```_init_``` where all the class attributes has been declared and two other methods to ask for the user input and then check it.
 
 ## Milestone 5
 
@@ -45,4 +45,4 @@ This method takes one positional argument -- user guess. It performs the followi
 - If the user input is correct, insert in the correct position of the random word.
 
 #### play_game() method
-This is the chief method that sets the game in motion. It takes one positional argument -- list of fruits. It then creates an instance of the ```Hangman``` object and finally allows the user to play the game until they either win or lose. Each user has a number of lives (```num_of_lives```) with default value of 5 that is the number of wrong guesses allowed and not the number of attempts. So a user will lose if they record ```num_of_lives``` wrong guesses. On the other hand, the user will win when the user have not exhausted their ```num_of_lives``` and have guessed all the ```unique``` charaters of the random word.
+This is the chief method that sets the game in motion. It takes one positional argument -- list of fruits. It then creates an instance of the ```Hangman``` object and finally allows the user to play the game until they either win or lose. Each user has ```num_of_lives``` with default value of 5 that is the number of wrong guesses allowed and not the number of attempts. For example, with the default value of 5, a user will lose if they record 5 wrong guesses. On the other hand, the user will win when the user have not exhausted their ```num_of_lives``` and have guessed all the ```unique``` charaters of the random word.
