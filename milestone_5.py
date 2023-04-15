@@ -41,10 +41,9 @@ class Hangman():
         while True:
             user_choice = input('Please enter a single letter : ')
             if len(user_choice) != 1 and user_choice.isalpha() is False:
-                print(f"""Invalid letter. Please enter a single alphabetical 
-                character""")
+                print('Invalid letter. Please enter a single alphabetical character')
             elif user_choice in self.list_of_guesses:
-                print(f'You already tried that letter')
+                print('You already tried that letter')
             else:
                 self.check_guess(user_choice)
                 self.list_of_guesses.append(user_choice)
@@ -55,7 +54,7 @@ def play_game(word_list):
     game = Hangman(word_list)
 
     while True:
-        print(game.num_lives)
+        print(game.word_guessed)
         print(game.word)
         if game.num_lives == 0:
             print('You lost!')

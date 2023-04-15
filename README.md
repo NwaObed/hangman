@@ -1,7 +1,5 @@
 # Hangman
 
-
-
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
@@ -53,6 +51,7 @@ I have completed the whole game following the following steps:
 
 ### Defining the methods.
 Methods are functions defined within a ```class``` object. As such, all methods are functions but the converse is not always true. In this game, there are three methods:
+
 #### ask_for_input() method
 This method takes no positional argument. It collects inputs from the user using the keyword ```input```. After receiving the input from the user, it then does the following four works:
 - Ensure the user input is a single alphabetical character, otherwise iterate until the user enters a single alphabetical character
